@@ -35,7 +35,7 @@ Owner = "Rᴀᴅʜᴀ Sɪɴɢʜ"
 repo = "https://github.com/Radhak8/Banall-Bot"
 @main.on(events.NewMessage(pattern="^/start"))
 async def start(event):
-    buttns = [Button.url("Support", "https://t.me/RadhaX2Support"), Button.url("Repo", f'{repo}')]
+    buttns = [Button.url("Support", "https://t.me/RadhaX2Support"), Button.url("Sᴏᴜʀᴄᴇ ❤️", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in SEXY:
         await main.send_file(
@@ -69,7 +69,7 @@ async def start(event):
 
 @main.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/RadhaX2Support"), Button.url("REPO", f'{repo}')]
+    buttns = [Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/RadhaX2Support"), Button.url("Sᴏᴜʀᴄᴇ ❤️", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in SEXY:
         await main.send_file(
