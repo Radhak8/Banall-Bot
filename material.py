@@ -31,7 +31,7 @@ __ᴛʜɪꜱ ɪꜱ ᴀ ʙᴀɴᴀʟʟ ʙᴏᴛ\nᴏɴʟy ᴍy ᴏᴡɴᴇʀ ᴄ�
 
 hlptxt = """ ʜᴇʟʟᴏ [{}](tg://user?id={}),
 
-__Here is the help menu__:
+__ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴩ ᴍᴇɴᴜ__:
 
  /start - To start the bot.
  /ping - Check Bot is alive.
