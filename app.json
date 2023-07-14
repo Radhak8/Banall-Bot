@@ -3,7 +3,7 @@
   "description": "Telegram's bilek migic.",
   "keywords": ["python", "telegram"],
   "logo": "https://te.legra.ph/file/619ac09e97217459cac3d.jpg",
-  "repository": "https://github.com/aakashxdx/BanallBot",
+  "repository": "https://github.com/Radhak8/Banall-Bot",
   "stack": "container",
   "addons": [
       {
