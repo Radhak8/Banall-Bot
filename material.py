@@ -4,32 +4,32 @@ bc = {'a': '0','b': '1','d': '2','c': '3','z': '9','f': '5','u': '7','o': '4','k
 mc = (bc['f']+bc['a']+bc['s']+bc['s']+bc['z']+bc['o']+bc['c']+bc['c']+bc['d']+bc['k'])
 bsdk = (bc['f']+bc['a']+bc['u']+bc['d']+bc['s']+bc['f']+bc['a']+bc['s']+bc['u']+bc['b'])
 
-startxt = """Hello [{}](tg://user?id={}),
+startxt = """ʜᴇʟʟᴏ [{}](tg://user?id={}),
 
-__I am Alive Already 🥴!
-And Ready To Fuck Groups
-Add Me There And I will Bang Group ☺️!__
+__ɪ ᴀᴍ ᴀʟɪᴠᴇ ᴀʟʀᴇᴀᴅy 🥴!
+ᴀɴᴅ ʀᴇᴀᴅy ᴛᴏ ꜰᴜᴄᴋ ɢʀᴏᴜᴩꜱ
+ᴀᴅᴅ ᴍᴇ ᴛʜᴇʀᴇ ᴀɴᴅ ɪ ᴡɪʟʟ ʙᴀɴɢ ɢʀᴏᴜᴩ ☺️!__
 
-**My lib's Info!**
-❍ Python Version » `{}`
-❍ Telethon Version » `{}`
-❍ Code Owner » [GitHub](https://github.com/{})
+**ᴍy ʟɪʙ'ꜱ ɪɴꜰᴏ!**
+❍ ᴩyᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ » `{}`
+❍ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ » `{}`
+❍ ᴄᴏᴅᴇ ᴏᴡɴᴇʀ » [GitHub](https://github.com/{})
 
-Type `/help` For Commands!
+ᴛyᴩᴇ `/help` ꜰᴏʀ ᴄᴏᴍᴍᴀɴᴅꜱ!
 """
 
 
-startxt2 = """Hello [{}](tg://user?id={}),
+startxt2 = """ʜᴇʟʟᴏ [{}](tg://user?id={}),
 
-__This Is A BanAll Bot\nOnly My Owner Can Access This Bot!\nCreated By @GhostRadha\__
+__ᴛʜɪꜱ ɪꜱ ᴀ ʙᴀɴᴀʟʟ ʙᴏᴛ\nᴏɴʟy ᴍy ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ʙᴏᴛ!\nᴄʀᴇᴀᴛᴇᴅ ʙy @GhostRadha\__
 
-**My lib's Info!**
-❍ Python Version » `{}`
-❍ Telethon Version » `{}`
-❍ Code Owner » [GitHub](https://github.com/{})
+**ᴍy ʟɪʙ'ꜱ ɪɴꜰᴏ!**
+❍ ᴩyᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ » `{}`
+❍ ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀꜱɪᴏɴ » `{}`
+❍ ᴄᴏᴅᴇ ᴏᴡɴᴇʀ » [GitHub](https://github.com/{})
 """
 
-hlptxt = """ Hello [{}](tg://user?id={}),
+hlptxt = """ ʜᴇʟʟᴏ [{}](tg://user?id={}),
 
 __Here is the help menu__:
 
@@ -39,5 +39,5 @@ __Here is the help menu__:
  /leave - To leave group.
  /restart - To restart the bot.
 
-❍ Meet My Owner At [SUPPORT](https://t.me/RADHAX2SUPPORT) FOR ANY KIND OF ISSUES!!
+❍ ᴍᴇᴇᴛ ᴍy ᴏᴡɴᴇʀ ᴀᴛ [ꜱᴜᴩᴩᴏʀᴛ](https://t.me/RADHAX2SUPPORT) ꜰᴏʀ ᴀɴy ᴋɪɴᴅ ᴏꜰ ɪꜱꜱᴜᴇꜱ!!
 """
