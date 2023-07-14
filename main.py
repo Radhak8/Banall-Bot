@@ -54,7 +54,7 @@ async def start(event):
     if event.sender.id not in SEXY:
         await main.send_file(
             event.chat.id,
-            file="://te.legra.ph/file/4f3bde538fdca92c3d829.jpg",
+            file="https://te.legra.ph/file/4f3bde538fdca92c3d829.jpg",
             caption=startxt2.format(
                 event.sender.first_name,
                 event.sender.id,
