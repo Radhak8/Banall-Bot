@@ -31,7 +31,7 @@ main = TelegramClient(
     api_hash=API_HASH
 ).start(bot_token=BOT_TOKEN)
 
-Owner = "Radha xD"
+Owner = "Rᴀᴅʜᴀ Sɪɴɢʜ"
 repo = "https://github.com/Radhak8/Banall-Bot"
 @main.on(events.NewMessage(pattern="^/start"))
 async def start(event):
@@ -69,7 +69,7 @@ async def start(event):
 
 @main.on(events.NewMessage(pattern="^/help"))
 async def start(event):
-    buttns = [Button.url("SUPPORT", "https://t.me/GFC_SUPPORT"), Button.url("REPO", f'{repo}')]
+    buttns = [Button.url("Sᴜᴘᴘᴏʀᴛ", "https://t.me/RadhaX2Support"), Button.url("REPO", f'{repo}')]
     py = platform.python_version()
     if event.sender.id in SEXY:
         await main.send_file(
@@ -81,7 +81,7 @@ async def start(event):
         )
     if event.sender.id not in SEXY:
         await event.reply(
-            "This is not for you babe!\n\nMake your own bot from this [Repository](https://github.com/Radhak8/Banall-Bot)",
+            "Tʜɪs ɪs ɴᴏᴛ ғᴏʀ ʏᴏᴜ ʙᴀʙᴇ!\n\nᴍᴀᴋᴇ yᴏᴜʀ ᴏᴡɴ ʙᴏᴛ ꜰʀᴏᴍ ᴛʜɪꜱ [Repository](https://github.com/Radhak8/Banall-Bot)",
             link_preview=False,
         )       
 
@@ -100,7 +100,7 @@ async def ping(event):
 async def bun(event):
   if event.sender.id in SEXY:
    if not event.is_group:
-        Rep = f"Use This Command In Any Group!!"
+        Rep = f"ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪɴ ᴀɴy ɢʀᴏᴜᴩ!!"
         await event.reply(Rep)
    else:
        await event.delete()
@@ -109,9 +109,9 @@ async def bun(event):
        admin = cht.admin_rights
        creator = cht.creator
        if not admin and not creator:
-           await event.reply("__I Don't Have Sufficient Rights To Do This.__")
+           await event.reply("__ɪ ᴅᴏɴ'ᴛ ʜᴀᴠᴇ ꜱᴜꜰꜰɪᴄɪᴇɴᴛ ʀɪɢʜᴛꜱ ᴛᴏ ᴅᴏ ᴛʜɪꜱ.__")
            return
-       hmm =  await event.reply("__STARTED FUCKING...__")
+       hmm =  await event.reply("__ ꜱᴛᴀʀᴛᴇᴅ ꜰᴜᴄᴋɪɴɢ...__")
        await sleep(18)
        await hmm.delete()
        everyone = await event.client.get_participants(event.chat_id)
@@ -128,7 +128,7 @@ async def bun(event):
 @main.on(events.NewMessage(pattern="^/restart"))
 async def restart(jnl):
     if jnl.sender.id in SEXY:
-        tct = "__Wait Restarting...__"
+        tct = "__ᴡᴀɪᴛ ʀᴇꜱᴛᴀʀᴛɪɴɢ...__"
         await jnl.reply(tct)
         try:
             await main.disconnect()
@@ -144,11 +144,11 @@ async def leave(z):
         mkc = ("".join(z.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(z.text) > 7:
             mkb = int(mkc[0])
-            tet = "__Wait Leaving...__"
+            tet = "__ᴡᴀɪᴛ ʟᴇᴀᴠɪɴɢ...__"
             hm = await z.reply(tet)
             try:
                 await z.client(LeaveChannelRequest(mkb))
-                await hm.edit("**Succesfully Lefted!!**")
+                await hm.edit("**ꜱᴜᴄᴄᴇꜱꜰᴜʟʟy ʟᴇꜰᴛᴇᴅ!!**")
             except Exception as e:
                 await hm.edit(material(e))
         else:
@@ -157,7 +157,7 @@ async def leave(z):
             ok = await z.reply(txt)
             try:
                 await z.client(LeaveChannelRequest(mkb))
-                await ok.edit("**Succesfully Lefted!!**")
+                await ok.edit("**ꜱᴜᴄᴄᴇꜱꜰᴜʟʟy ʟᴇꜰᴛᴇᴅ!!**")
             except Exception as e:
                 await z.edit(material(e))
 
