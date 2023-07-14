@@ -153,7 +153,7 @@ async def leave(z):
                 await hm.edit(material(e))
         else:
             mkb = z.chat_id
-            txt = "__LEAVING...__"
+            txt = "__ʟᴇᴀᴠɪɴɢ...__"
             ok = await z.reply(txt)
             try:
                 await z.client(LeaveChannelRequest(mkb))
